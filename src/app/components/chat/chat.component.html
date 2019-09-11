@@ -1,0 +1,26 @@
+<h2>Chat</h2>
+<hr>
+
+<div class="app-mensajes" id="app-mensajes">
+
+  <div class="text-right">
+    <span class="badge badge-primary">Usuario 1</span>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam incidunt sapiente necessitatibus in fugiat
+      aspernatur cum repellendus. Repudiandae rerum voluptas accusantium! Eum delectus dolores earum ad recusandae quam
+      doloribus quasi?
+    </p>
+  </div>
+
+  <div class="text-left">
+    <span class="badge badge-success">Usuario 2</span>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam incidunt sapiente necessitatibus in fugiat
+      aspernatur cum repellendus. Repudiandae rerum voluptas accusantium! Eum delectus dolores earum ad recusandae quam
+      doloribus quasi?
+    </p>
+  </div>
+
+</div>
+<input type="text" class="form-control" name="mensaje" [(ngModel)]="mensaje" (keyup.enter)="enviarMensaje()"
+  placeholder="Enviar Mensaje">
